@@ -1,6 +1,6 @@
 /*
  * 23/04/2023
- * Tem sido observado que os grilos tendema cricrilar no verão em uma taxa que é
+ * Tem sido observado que os grilos tendem a cricrilar no verão em uma taxa que é
  * relacionada com a temperatura pela fórmula T = 40 + c/4, onde c é o número de
  * cricris por minuto e T é a temperatura em graus Fahrenheit. 
  * Escreva e execute um programa java que recebe como entrada o número de cricris 
@@ -26,7 +26,7 @@ public class Grilos {
         int celsius;
         
         InputStreamReader leitora = new InputStreamReader(System.in);
-        BufferedReader e          = new BufferedReader(leitora);
+        BufferedReader    e       = new BufferedReader(leitora);
         
         System.out.print("Digite o número de cricris por minuto: ");
         
