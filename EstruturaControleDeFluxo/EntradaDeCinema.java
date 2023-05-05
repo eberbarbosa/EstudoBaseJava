@@ -28,7 +28,7 @@ public class EntradaDeCinema {
         
         float preço = calculaPreco(idade, diaDaSemana);
         
-        System.out.printf("O preço da Entrada é  R$%.2f Reais\n", preço);
+        System.out.printf("O preço da Entrada é  R$%.2f Reais\n\n", preço);
         
     }
     

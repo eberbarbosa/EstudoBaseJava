@@ -5,7 +5,7 @@ import java.util.Random;
  * 25/04/2023
                 Condicionais Aninhados
  * O programa usa comparações de pares para determinar a ordem ascendente de 
- * três números ddecimais gerados randomicamente
+ * três números decimais gerados randomicamente
  */
 
 /**
