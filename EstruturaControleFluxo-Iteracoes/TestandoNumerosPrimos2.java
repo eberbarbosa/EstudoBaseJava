@@ -40,7 +40,7 @@ public class TestandoNumerosPrimos2{
         }
          else
         
-            System.out.println( "\u001B[32m !!! É primo !!! \nu\001B[0m");
+            System.out.println( "\u001B[32m !!! É primo !!! \n\u001B[0m");
     }
     
 }

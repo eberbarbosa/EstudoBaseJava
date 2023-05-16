@@ -1,6 +1,6 @@
 /*
  * 03/05/2023
- * Essa classe demonstra o uso dos métodos estáticos da classe ProbabilidadeBaica
+ * Essa classe demonstra o uso dos métodos estáticos da classe ProbabilidadeBasica
  */
 
 /**
