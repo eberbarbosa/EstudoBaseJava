@@ -32,7 +32,7 @@ public class Craps {
     public void play() {
 
         int    myPoint = 0;    // pontos se não ganhar ou perder na 1ª rolagem
-        Status gameStatus;  // pode conter CONTINUE, WON ou LOST
+        Status gameStatus;    // pode conter CONTINUE, WON ou LOST
 
         int sumOfDice = rollDice();   // primeira rolagem dos dados
 
