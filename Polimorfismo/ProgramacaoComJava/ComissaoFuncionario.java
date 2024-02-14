@@ -50,9 +50,10 @@ public class ComissaoFuncionario extends Funcionario {
     }
     
     // retorna a representação String do objeto ComissaoFuncionario
+    @Override
     public String toString() {
         
-        return String.format( "%s: %s\n%s: R$%,.2f; %.2f",
+        return String.format( "%s: %s\n%s: R$%,.2f; %s: %.2f",
                 "Comissão Funcionário", super.toString(),
                 "Vendas Brutas Semanais", getTaxaComissao(),
                 "Porcentagem das Comissão", getTaxaComissao());
