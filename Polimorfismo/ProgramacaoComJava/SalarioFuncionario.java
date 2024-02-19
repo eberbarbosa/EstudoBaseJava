@@ -15,7 +15,7 @@ public class SalarioFuncionario extends Funcionario {
     private double salarioSemanal;
 
     // Construtor com quatro argumentos
-    public SalarioFuncionario(double salarioSemanal, String nome, String sobrenome, String cpf) {
+    public SalarioFuncionario( String nome, String sobrenome, String cpf, double salarioSemanal ) {
         
         super(nome, sobrenome, cpf);            // passa para o construtor Funcionario
         this.salarioSemanal = salarioSemanal;    // valida e armazena o salário

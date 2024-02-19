@@ -16,8 +16,8 @@ public class SalarioBaseMaisComissao extends ComissaoFuncionario {
     
     // construtor de seis argumentos
 
-    public SalarioBaseMaisComissao(double salarioBaseSemana, double vendasBrutas, double taxaComissao, String nome, String sobrenome, String cpf) {
-        super(vendasBrutas, taxaComissao, nome, sobrenome, cpf);
+    public SalarioBaseMaisComissao( String nome, String sobrenome, String cpf, double salarioBaseSemana, double vendasBrutas, double taxaComissao ) {
+        super( nome, sobrenome, cpf, vendasBrutas, taxaComissao );
         this.salarioBaseSemana = salarioBaseSemana;
     }
     

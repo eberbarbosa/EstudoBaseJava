@@ -17,7 +17,7 @@ public class ComissaoFuncionario extends Funcionario {
     
     // construtor de cinco argumentos
 
-    public ComissaoFuncionario(double vendasBrutas, double taxaComissao, String nome, String sobrenome, String cpf) {
+    public ComissaoFuncionario( String nome, String sobrenome, String cpf, double vendasBrutas, double taxaComissao ) {
         
         super(nome, sobrenome, cpf);
         this.vendasBrutas = vendasBrutas;

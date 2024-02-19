@@ -15,10 +15,10 @@ public class FolhaPagamentoTest {
     public static void main(String[] args) {
         
         // Cria objetos ce subclasses
-        SalarioFuncionario salarioFuncionario = new SalarioFuncionario(800.00, "John", "Smith", "111-111-111-11");
+        SalarioFuncionario salarioFuncionario = new SalarioFuncionario( "John", "Smith", "111-111-111-11", 800.00 );
         FuncionarioHorista funcionarioHorista = new FuncionarioHorista("Karen", "Price", "222-222-222-22", 16.75, 40 );
-        ComissaoFuncionario comissaoFuncionario = new ComissaoFuncionario(10000, .06, "Sue", "Jones", "333-333-333-33" );
-        SalarioBaseMaisComissao salarioBaseMaisComissao = new SalarioBaseMaisComissao(300, 5000, .04, "Bob", "Lewis", "444-444-444-44" );
+        ComissaoFuncionario comissaoFuncionario = new ComissaoFuncionario( "Sue", "Jones", "333-333-333-33", 10000, .06 );
+        SalarioBaseMaisComissao salarioBaseMaisComissao = new SalarioBaseMaisComissao( "Bob", "Lewis", "444-444-444-44", 5000, .04, 300 );
         
         System.out.println("Funcionários processados individualmente:\n" );
         
