@@ -11,7 +11,7 @@ package ProgramacaoComJava;
  *
  * @author eber
  */
-public class FuncionarioHorista extends Funcionario {
+public class FuncionarioHorista extends Funcionario_Interface {
     
     private double salarioHora;     // Salário por Hora
     private double hora;            // horas trabalhadas durante a semana

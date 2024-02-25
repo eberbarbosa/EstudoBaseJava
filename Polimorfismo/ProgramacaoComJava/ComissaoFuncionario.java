@@ -10,7 +10,7 @@ package ProgramacaoComJava;
  *
  * @author eber
  */
-public class ComissaoFuncionario extends Funcionario {
+public class ComissaoFuncionario extends Funcionario_Interface {
     
     private double vendasBrutas;         // vendas brutas semanais
     private double taxaComissao;        // porcentagem da comissão

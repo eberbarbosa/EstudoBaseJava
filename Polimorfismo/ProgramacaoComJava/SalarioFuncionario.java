@@ -32,12 +32,19 @@ public class SalarioFuncionario extends Funcionario {
     }
     
     // calcula os rendimentos; sobrescreve o método ganhos em Funcionario
-
-    @Override
+  /*  @Override
     public double ganhos() {
         
         return  salarioSemanal;
         
+    } */
+    
+    // Calcula vencimentos; implementa o método ContasAPagar da Interface que
+    // era abstrata na superclasse Funcionario[
+    @Override
+    public double getValorPagamento() {
+        
+        return getSalarioSemanal();
     }
 
     @Override
@@ -45,13 +52,8 @@ public class SalarioFuncionario extends Funcionario {
             
         return String.format(      "Salário Funcionário: %s\n%s: R$%,.2f",
                 super.toString(),"Salário Semanal", getSalarioSemanal()) ;
-    }
-    
-    
-    
-    
-    
-    
+    }       
+         
     
     
 }

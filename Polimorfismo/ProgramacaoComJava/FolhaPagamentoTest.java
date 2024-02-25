@@ -36,7 +36,7 @@ public class FolhaPagamentoTest {
         
         
         // cria um array Funcionario de 4 elementos
-        Funcionario funcionario[] = new Funcionario[4];
+        Funcionario_Interface funcionario[] = new Funcionario_Interface[4];
         
         // inicia o array com Funcionario
         funcionario[ 0 ] = salarioFuncionario;
@@ -47,7 +47,7 @@ public class FolhaPagamentoTest {
         System.out.println("Funcionario processado Polimorficamente:\n");
         
         // processa genericamente cada elemento no funionario
-        for( Funcionario funcionarioAtual : funcionario ) {
+        for( Funcionario_Interface funcionarioAtual : funcionario ) {
             
             System.out.println(funcionarioAtual );
             

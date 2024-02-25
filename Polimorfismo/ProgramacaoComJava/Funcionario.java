@@ -10,7 +10,7 @@ package ProgramacaoComJava;
  *
  * @author eber
  */
-public abstract class Funcionario {
+public abstract class Funcionario implements ContasAPagar{
     
     private String nome;
     private String sobrenome;
@@ -55,7 +55,7 @@ public abstract class Funcionario {
     }
     
     // método abstrato sobrescrito pelas subclasses
-    public abstract double ganhos();    // nenhuma implementação aqui  
+   // public abstract double ganhos();    // nenhuma implementação aqui  
        
     
     
