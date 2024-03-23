@@ -1,6 +1,6 @@
 /*
  *  28/10/2023 
- * - pagina 295 livro: Programação com Java - John Hubbard
+ * - pagina 195 livro: Programação com Java - John Hubbard
  *  Método equals() da classe String
  *  
  */
