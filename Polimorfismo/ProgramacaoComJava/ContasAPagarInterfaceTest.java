@@ -6,9 +6,6 @@
  */
 package ProgramacaoComJava;
 
-import ProgramacaoComJava.ContasAPagar;
-import ProgramacaoComJava.Fatura;
-
 /**
  *
  * @author eber
@@ -22,9 +19,9 @@ public class ContasAPagarInterfaceTest {
         
         // preenche o array com objtos que implemental ContasAPagar
         contasAPagarObjeto[ 0 ] = new Fatura("01234", "Assento", 2, 375.00);
-        contasAPagarObjeto[ 1 ] = new Fatura("56789", "pneu", 24, 79.95 );
+        contasAPagarObjeto[ 1 ] = new Fatura("56789", "pneu",    24, 79.95 );
         contasAPagarObjeto[ 2 ] = new SalarioFuncionario("John", "Smith", "111.111.111-11", 800.00);
-        contasAPagarObjeto[ 3 ] = new SalarioFuncionario("Lisa", "Barner", "222.222.222-22", 1200.00);
+        contasAPagarObjeto[ 3 ] = new SalarioFuncionario("Lisa", "Barner","222.222.222-22", 1200.00);
         
         System.out.println("Faturas e Funcionários processado polimorficamente:\n");
         
