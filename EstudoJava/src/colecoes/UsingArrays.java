@@ -5,7 +5,7 @@
  */
 
 
-package colecoes.javaComoProgramar;
+package colecoes;
 
 import java.util.Arrays;
 

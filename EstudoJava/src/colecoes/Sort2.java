@@ -1,9 +1,9 @@
 /*
- *  02/07/2024
-* - pagina 687 livro: Java como Programar - Deitel
- *  Utilizando o algoritmo sort.
+ *  03/07/2024
+* - pagina 688 livro: Java como Programar - Deitel
+ *  Utilizando o objeto comparador com o algoritmo sort.
  */
-package colecoes.javaComoProgramar;
+package colecoes;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -13,20 +13,22 @@ import java.util.List;
  *
  * @author eber
  */
-public class Sort1 {
+
+public class Sort2 {
     
     private static final String suits[] = 
     { "Copas", "Ouro", "Paus", "Espadas"};
     
-    // Exibe os elementos do array
+    // Gera saída de elementos List
     public void printElements() {
         
         List< String > list = Arrays.asList(suits);  // cria a lista
         
-        // gera saída da lista
+        // Gera saída de elementos List
         System.out.printf("Elementos do array não classificados: \n%s\n", list);
         
-        Collections.sort(list);     // Classifica ArrayList
+        // Classifica em ordem decrescente utilizando um compardor
+        Collections.sort(list, Collections.reverseOrder());     
         
         // gera a saída da lista
         System.out.printf("Elementos do array classificados: \n%s\n", list);
@@ -34,8 +36,9 @@ public class Sort1 {
     
     public static void main(String[] args) {
         
-        Sort1 sort1 = new Sort1();
-        sort1.printElements();
+        Sort2 sort2 = new Sort2();
+        sort2.printElements();
     }
     
+
 }
