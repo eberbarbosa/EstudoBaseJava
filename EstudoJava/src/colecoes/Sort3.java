@@ -7,7 +7,7 @@
 
 package colecoes;
 
-import javaComoProgramar.Time2;
+import Metodos.javaComoProgramar.Time2;
 
 import java.util.ArrayList;
 import java.util.Collection;

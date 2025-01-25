@@ -3,7 +3,7 @@
 * - pagina 258 livro: Java como Programar - Deitel
  *  Declaração da classe Time2 com construtores sobrecarregados
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 /**
  *

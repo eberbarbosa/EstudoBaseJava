@@ -3,7 +3,7 @@
 * - pagina 176 livro: Java como Programar - Deitel
  * Esse programa rola um dado de seis lados 6000 vezes
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 import java.util.Random;
 

@@ -3,7 +3,7 @@
 * - pagina 169 livro: Java como Programar - Deitel
  * Esse programa utiliza o método maximum para retornar o maior numero
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@
 * - pagina 180 livro: Java como Programar - Deitel
  *  Aplicativo para testar a classe Craps
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 /**
  *

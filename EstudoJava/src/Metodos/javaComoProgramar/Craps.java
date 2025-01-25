@@ -3,7 +3,7 @@
 * - pagina 178 livro: Java como Programar - Deitel
  *  A classe Craps simula o jogo de dados craps
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 import java.util.Random;
 

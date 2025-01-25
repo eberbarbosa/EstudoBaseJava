@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EstudoJava2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EstudoJava/dist/EstudoJava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,7 +1,7 @@
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 
-import javaComoProgramar.DrawSmiley;
+import Metodos.javaComoProgramar.DrawSmiley;
 import javax.swing.JFrame;
 
 /*

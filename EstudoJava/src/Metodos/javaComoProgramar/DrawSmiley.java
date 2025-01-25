@@ -3,7 +3,7 @@
 * - pagina 187 livro: Java como Programar - Deitel
  *  Demonstra formas preenchidas
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 import java.awt.Color;
 import java.awt.Graphics;

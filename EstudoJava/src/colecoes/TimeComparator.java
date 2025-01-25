@@ -6,7 +6,7 @@
 
 package colecoes;
 
-import javaComoProgramar.Time2;
+import Metodos.javaComoProgramar.Time2;
 
 import java.util.Comparator;
 

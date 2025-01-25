@@ -4,7 +4,9 @@
  *  Objeto Time1 utilizado em um aplicativo
  */
 
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
+
+import javaComoProgramar.Time1;
 
 /**
  *

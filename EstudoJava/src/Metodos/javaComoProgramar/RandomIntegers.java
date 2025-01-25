@@ -3,7 +3,7 @@
 * - pagina 175 livro: Java como Programar - Deitel
  * Inteiros aleatórios deslocados e escalonados
  */
-package javaComoProgramar;
+package Metodos.javaComoProgramar;
 
 import java.util.Random;
 
