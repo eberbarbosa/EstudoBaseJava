@@ -3,6 +3,7 @@
  *    Calcula valores a serem colocados em elementos de um array.
  * 
  */
+package Arrays_e_Matrizes;
 
 /**
  *
@@ -22,7 +23,7 @@ public class InitArray2 {
         
         System.out.printf("%s%8s\n", "Posição", "Valor");   // Títulos da coluna
         
-        // gerra a saída do valor de cada elemento do array
+        // gera a saída do valor de cada elemento do array
         for(int j = 0; j < array.length; j++)
             
             System.out.printf("%5d%8d\n", j, array[j]);
