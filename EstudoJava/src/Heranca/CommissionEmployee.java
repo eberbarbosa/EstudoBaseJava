@@ -4,7 +4,7 @@
  *  Classe CommissionEmployee representa um empregado comissionado
  *  
  */
-package programacaoComJava.employee;
+package Heranca;
 
 /**
  *

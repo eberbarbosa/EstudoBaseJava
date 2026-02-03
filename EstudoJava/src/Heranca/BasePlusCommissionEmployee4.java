@@ -4,7 +4,7 @@
  *   Classe BasePlusCommissionEmployee4 herda CommissionEmployee3 e acessa
  *   os dados privados de CommissionEmployee3 via métodos public de CommissionEmployee3
  */
-package programacaoComJava.employee;
+package Heranca;
 
 /**
  *

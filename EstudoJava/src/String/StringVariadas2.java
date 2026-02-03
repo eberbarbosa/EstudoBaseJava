@@ -6,7 +6,7 @@
 
 package String;
 
-public class StringVariadas {
+public class StringVariadas2 {
 
     public static void main(String[] args) {
 

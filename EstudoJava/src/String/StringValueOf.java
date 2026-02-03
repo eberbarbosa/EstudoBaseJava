@@ -23,15 +23,15 @@ public class StringValueOf {
         double  doubleValue    = 33.333;       // sem sufixo, tipo double é padrão
         Object  objectRef      = "hello";      // atribui string a um referêncoa Object
         
-        System.out.printf("char array = %s\n", String.valueOf(charArray));
+        System.out.printf("char array = %s\n",          String.valueOf(charArray));
         System.out.printf("Parte de char array = %s\n", String.valueOf(charArray, 3, 3));
-        System.out.printf("boolean = %s\n", String.valueOf(booleanValue));
-        System.out.printf("char = %s\n", String.valueOf(characterValue));
-        System.out.printf("int = %s\n", String.valueOf(integerValue));
-        System.out.printf("long = %s\n", String.valueOf(longValue));
-        System.out.printf("float = %s\n", String.valueOf(floatValue));
-        System.out.printf("double = %s\n", String.valueOf(doubleValue));
-        System.out.printf("Object = %s\n", String.valueOf(objectRef));
+        System.out.printf("boolean = %s\n",             String.valueOf(booleanValue));
+        System.out.printf("char = %s\n",                String.valueOf(characterValue));
+        System.out.printf("int = %s\n",                 String.valueOf(integerValue));
+        System.out.printf("long = %s\n",                String.valueOf(longValue));
+        System.out.printf("float = %s\n",               String.valueOf(floatValue));
+        System.out.printf("double = %s\n",              String.valueOf(doubleValue));
+        System.out.printf("Object = %s\n",              String.valueOf(objectRef));
     }
 
 }

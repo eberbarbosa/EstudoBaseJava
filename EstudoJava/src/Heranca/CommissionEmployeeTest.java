@@ -4,7 +4,9 @@
  *  testando a classe CommissionEmployee 
  *  
  */
-package programacaoComJava.employee;
+package Heranca;
+
+import Heranca.CommissionEmployee;
 
 /**
  *

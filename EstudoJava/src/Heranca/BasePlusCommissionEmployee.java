@@ -5,7 +5,7 @@
  *  que recebe um salário além da comissão
  *  
  */
-package programacaoComJava.employee;
+package Heranca;
 
 /**
  *

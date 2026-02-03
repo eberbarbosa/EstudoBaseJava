@@ -4,7 +4,9 @@
  *  Testando a classe BasePlusCommissionEmployee4
  *  
  */
-package programacaoComJava.employee;
+package Heranca;
+
+import Heranca.BasePlusCommissionEmployee4;
 
 /**
  *
