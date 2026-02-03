@@ -7,3 +7,24 @@
 /Arrays_e_Matrizes/EstudoJava/build/
 /Arrays_e_Matrizes/EstudoJava/dist/
 /Arrays_e_Matrizes/EstudoJava/nbproject/private/
+
+# ===== NetBeans ====
+/nbproject/private/
+/build/
+/dist/
+/out/
+
+# ==== IDEs ====
+.idea/
+*.iml
+
+# ==== Logs ====
+*.log
+
+# ==== Sistema ====
+.DS_Store
+Thumbs.db
+
+# ==== Variáveis de ambiente ====
+.env
+
